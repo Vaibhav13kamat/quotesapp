@@ -7,7 +7,7 @@ function quotes_button() {
       .then((info1) => {
         console.log(info1[0]);
         let list1 = "";
-        ok.map((values) => {
+        info1.map((values) => {
           list1 += `   
               <h5>"${values.quote}"</h5>
               <p><b >&nbsp~${values.author}</b></p>
@@ -16,7 +16,7 @@ function quotes_button() {
                 <br>  <br>     
           `;
         });
-        document.getElementById("names").innerHTML = list;
+        document.getElementById("names").innerHTML = list1;
       });
   }
   function author_button() {
