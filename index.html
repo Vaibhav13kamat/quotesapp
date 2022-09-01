@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quotes Application</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS-->
+    <link rel="stylesheet" href="quotesapp.css" />
+    <!---->
+
+
+
+    <!--JavaScript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="quoteapp.js"></script>
+    <script src="jquery.js"></script>
+    <!---->
+
+    <link/>
+  </head>
+  <body>
+    <div class="container-fluid main">
+      <h1>Software Quotes</h1>
+      <div class="forbtn">
+        <div class="btn-group tabs">
+          <button
+            id="bb"
+            class="btn btn-default"
+            class="focus"
+            onclick="quotes_button()"
+          >
+            Quotes
+          </button>
+
+          <button
+            id="bb2"
+            class="btn btn-default"
+            class="focus"
+            onclick="author_button()"
+            active
+          >
+            Authors
+          </button>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col maincol" id="names"></div>
+        <div class="col maincol2" id="name"></div>
+      </div>
+    </div>
+  </body>
+</html>

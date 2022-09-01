@@ -1,0 +1,69 @@
+body {
+    background-color: #F1AC88FF;
+ 
+  }
+  .main h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+
+  
+  .maincol {
+    padding: 80px;
+    background-color: #e0ffff;
+    box-sizing: border-box;
+    display: inline;
+    font-size: 16px;
+    text-align: start;
+  }
+  
+  .maincol2 {
+    display: inline;
+    padding: 80px;
+    max-height: max-content;
+    line-height: 40px;
+    background-color: #e0ffff;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 5px;
+  }
+  
+  .tabs {
+    padding-top: 5px;
+  }
+  
+  .forbtn {
+    text-align: center;
+  }
+  
+ 
+  
+  .tabs button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 220px;
+    height: 60px;
+    
+    background-color: var(white);
+    cursor: pointer;
+    font-size: 30px;
+    color: var(#F1AC88FF);
+    transition: all 0.1s;
+    position: relative;
+  
+    
+  
+    border-radius: 50px;
+   
+  }
+  .tabs button:hover {
+    background-color: #783937FF;
+  }
+ 
